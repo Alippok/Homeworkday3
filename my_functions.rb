@@ -62,6 +62,48 @@ def search_array5(array_1, array_2, item)
  return false
 end
 
+# def search_array6(array, item)
+#   for i in array
+#     if i == item 
+#       return true
+#     else
+#       for i in array[1]
+#         if i == item
+#           return true
+#         end
+#       end
+#     end
+#   end
+#   for i in array[2]#for some reason, the loop is not reaching this far so had to restart another one
+#     if i == item
+#        return true
+#     end
+#   end
+  
+#   return false
+# end
+
+def search_array6(array, item)
+  for i in array
+    if i == item 
+      return true
+    elsif
+      for i in array[1]
+        if i == item
+          return true
+        end
+      end
+    else
+      for i in array[2]
+       if i == item
+         return true    #the loop doesnt reach this far??
+       end
+      end
+    end
+  end
+  return false
+end
+
 # def search_array(array, item)
 # # selection = array.select {|a| a == "Ravenclaw"}
 # # select = selection.pop

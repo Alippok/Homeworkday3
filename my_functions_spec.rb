@@ -39,6 +39,11 @@ def test_search_array5()
   assert_equal(true, result)
 end
 
+def test_search_array6()
+  result = search_array6([ "Pilsner", [ "Wainwright" , "Smooth" ] , ["Carling", "Carlsberg", "Stella Artois"] , "Cider" ], "Carling")
+  assert_equal(true, result)
+end
+
 # def test_search_array()
 #   result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ], "Ravenclaw")
 #   assert_equal(true, result)
