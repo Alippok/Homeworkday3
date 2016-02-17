@@ -47,6 +47,20 @@ def search_array4(array, item)
   return false
 end
 
+def search_array5(array_1, array_2, item)
+ for i in array_1
+  if i == item
+    return true
+  else 
+    for i in array_2
+      if i == item
+        return true
+      end
+    end
+  end
+ end
+ return false
+end
 
 # def search_array(array, item)
 # # selection = array.select {|a| a == "Ravenclaw"}
