@@ -1,0 +1,1 @@
+def add_array_length(array_1, array_2)
