@@ -13,7 +13,20 @@ def sum_of_array(array)
 end
 
 
-def search_array(array)
-  
+def search_array(array, item)
+# selection = array.select {|a| a == "Ravenclaw"}
+# select = selection.pop
 
+# if select == "Ravenclaw"
+# return true
+# else 
+#   return false
+# end
+
+  for i in array
+    if i == item
+      return true
+    end
+  end
+return false
 end

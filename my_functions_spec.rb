@@ -15,7 +15,7 @@ def test_sum_of_array()
 end
 
 def test_search_array()
-  result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ])
+  result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ], "Ravenclaw")
   assert_equal(true, result)
 end
 
