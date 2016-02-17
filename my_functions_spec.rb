@@ -9,15 +9,29 @@ class TestMyFunctions  < MiniTest::Test
 #    assert_equal(8, result)
 # end 
 
-def test_sum_of_array()
- result = sum_of_array([1,2,3,4,5])
- assert_equal(15, result)
-end
+# def test_sum_of_array()
+#  result = sum_of_array([1,2,3,4,5])
+#  assert_equal(15, result)
+# end
 
-def test_search_array()
-  result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ], "Ravenclaw")
+# def test_sum_of_array2()
+#   result = sum_of_array2([20, 34, 12, 83, 23])
+#   assert_equal(172, result)
+# end
+
+def test_search_array2()
+  result = search_array2([20, 34, 12, 83, 23], 20)
   assert_equal(true, result)
 end
+
+def test_search_array3()
+  result = search_array2([20, 34, 12, 83, 23], 20, 83)
+  assert_equal(true, result)
+end
+# def test_search_array()
+#   result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ], "Ravenclaw")
+#   assert_equal(true, result)
+# end
 
 
 
