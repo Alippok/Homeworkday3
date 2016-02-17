@@ -25,9 +25,15 @@ def test_search_array2()
 end
 
 def test_search_array3()
-  result = search_array2([20, 34, 12, 83, 23], 20, 83)
+  result = search_array3([20, 34, 12, 83, 23], 20)
   assert_equal(true, result)
 end
+
+def test_search_array4()
+  result = search_array4(["Pilsner", "Red wine", "Ale", "White wine", "Lager"], "Pilsner")
+  assert_equal(true, result)
+end
+
 # def test_search_array()
 #   result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ], "Ravenclaw")
 #   assert_equal(true, result)

@@ -29,16 +29,24 @@ def search_array2(array, num)
   return false
 end
 
-def search_array3 (array, num_1, num_2)
+def search_array3(array, num_1)
   for i in array
-    if i == num_1 && num_2
+    if i == num_1 
       return true
-    else i == num_1 || num_2
-      return "Almost"
     end
   end
   return false
 end
+
+def search_array4(array, item)
+  for i in array
+    if i == item
+      return true
+    end
+  end
+  return false
+end
+
 
 # def search_array(array, item)
 # # selection = array.select {|a| a == "Ravenclaw"}
