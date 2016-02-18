@@ -62,6 +62,9 @@ def search_array5(array_1, array_2, item)
  return false
 end
 
+def summ_array3
+
+end
 # def search_array6(array, item)
 #   for i in array
 #     if i == item 

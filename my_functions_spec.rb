@@ -44,6 +44,10 @@ def test_search_array6()
   assert_equal(true, result)
 end
 
+def test_sum_array3()
+result = sum_array3([ 10, 20, 5, 5, [ 10, 10, 40, 5 ], 30 , [ 30, 40, 10, 10 ])
+assert_equal(75, result)
+end
 # def test_search_array()
 #   result = search_array([ 'Hufflepuff', 'Slytherin', 'Gryffindor', 'Ravenclaw' ], "Ravenclaw")
 #   assert_equal(true, result)
